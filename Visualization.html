@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualizations - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#education" class="nav-link">Education</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="visualizations.html" class="nav-link active viz-link">Visualizations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="viz-hero">
+        <div class="container">
+            <h1 class="viz-hero-title">Data Visualizations</h1>
+            <p class="viz-hero-subtitle">Exploring data through creative visual storytelling</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="viz-card">
+                <div class="viz-header">
+                    <h2 class="viz-title">Monthly Temperature Trends</h2>
+                    <p class="viz-description">
+                        An interactive bar chart showing average monthly temperatures throughout the year.
+                        Hover over the bars to see detailed information.
+                    </p>
+                </div>
+                <div class="viz-container" id="temperatureViz"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <div class="viz-card">
+                <div class="viz-header">
+                    <h2 class="viz-title">Geometric Harmony</h2>
+                    <p class="viz-description">
+                        A creative SVG art piece exploring geometric patterns and color gradients.
+                        This generative art demonstrates the beauty of mathematical symmetry.
+                    </p>
+                </div>
+                <div class="viz-container" id="creativeArt"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alex Thompson. All rights reserved.</p>
+            <p><a href="index.html" class="footer-link">Back to Home</a></p>
+        </div>
+    </footer>
+
+    <script src="vis.js"></script>
+</body>
+</html>

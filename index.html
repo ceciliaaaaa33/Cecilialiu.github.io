@@ -1,1 +1,200 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Thompson - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="minimal-layout">
+    <!-- Year Header -->
+    <div class="year-header">2024</div>
+
+    <!-- Main Content -->
+    <div class="minimal-container">
+        <nav class="minimal-nav">
+            <a href="#" class="nav-item active" data-page="home">Alex Thompson</a>
+            <a href="#" class="nav-item" data-page="about">About Me</a>
+            <a href="#" class="nav-item" data-page="education">Education</a>
+            <a href="#" class="nav-item" data-page="skills">Skills</a>
+            <a href="#" class="nav-item" data-page="experience">Experience</a>
+            <a href="#" class="nav-item" data-page="contact">Contact</a>
+            <a href="visualizations.html" class="nav-item viz-link">Visualizations</a>
+        </nav>
+
+        <!-- Content Area -->
+        <div class="content-area">
+            <!-- Home Page -->
+            <div id="home-page" class="page-content active">
+                <h1 class="main-title">Alex Thompson</h1>
+                <p class="subtitle">Computer Science Student</p>
+                <p class="subtitle">Data Visualization Enthusiast</p>
+                <div class="year-list">
+                    <span>'24</span>
+                    <span>'23</span>
+                    <span>'22</span>
+                </div>
+            </div>
+
+            <!-- About Page -->
+            <div id="about-page" class="page-content">
+                <h2 class="page-title">About Me</h2>
+                <div class="text-content">
+                    <p>
+                        I'm a dedicated Computer Science student with a deep interest in data visualization, 
+                        web development, and creative coding. I believe in the power of technology to transform 
+                        how we understand and interact with information.
+                    </p>
+                    <p>
+                        My passion lies in creating elegant solutions to complex problems through code and design.
+                        I specialize in building interactive web experiences and turning data into compelling visual stories.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new visualization techniques, 
+                        contributing to open-source projects, or learning about the latest developments 
+                        in web technologies and data science.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Education Page -->
+            <div id="education-page" class="page-content">
+                <h2 class="page-title">Education</h2>
+                <div class="list-content">
+                    <div class="list-item">
+                        <div class="item-year">2022 - Present</div>
+                        <div class="item-details">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <p class="item-subtitle">University of Technology</p>
+                            <p class="item-description">
+                                Relevant Coursework: Data Structures, Algorithms, Web Development, 
+                                Database Systems, Data Visualization, Machine Learning
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-year">2018 - 2022</div>
+                        <div class="item-details">
+                            <h3>High School Diploma</h3>
+                            <p class="item-subtitle">Central High School</p>
+                            <p class="item-description">
+                                Graduated with honors. President of Computer Science Club.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Page -->
+            <div id="skills-page" class="page-content">
+                <h2 class="page-title">Skills</h2>
+                <div class="list-content">
+                    <div class="skill-section">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-list">
+                            JavaScript / Python / Java / C++ / SQL
+                        </div>
+                    </div>
+                    <div class="skill-section">
+                        <h3>Web Technologies</h3>
+                        <div class="skill-list">
+                            HTML5 / CSS3 / React / Node.js / D3.js
+                        </div>
+                    </div>
+                    <div class="skill-section">
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-list">
+                            Git / VS Code / Figma / MongoDB / PostgreSQL
+                        </div>
+                    </div>
+                    <div class="skill-section">
+                        <h3>Data & Visualization</h3>
+                        <div class="skill-list">
+                            Data Analysis / SVG / Canvas API / Pandas / NumPy
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Page -->
+            <div id="experience-page" class="page-content">
+                <h2 class="page-title">Experience</h2>
+                <div class="list-content">
+                    <div class="list-item">
+                        <div class="item-year">Summer 2024</div>
+                        <div class="item-details">
+                            <h3>Web Development Intern</h3>
+                            <p class="item-subtitle">TechStart Solutions</p>
+                            <ul class="item-list">
+                                <li>Developed responsive web applications using React and Node.js</li>
+                                <li>Collaborated with design team to implement user interfaces</li>
+                                <li>Optimized website performance, reducing load time by 40%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-year">2024</div>
+                        <div class="item-details">
+                            <h3>Data Visualization Project</h3>
+                            <p class="item-subtitle">Academic Project</p>
+                            <ul class="item-list">
+                                <li>Created interactive data visualizations using D3.js and SVG</li>
+                                <li>Analyzed and visualized climate data trends</li>
+                                <li>Presented findings to department faculty</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-year">2023 - Present</div>
+                        <div class="item-details">
+                            <h3>Open Source Contributor</h3>
+                            <p class="item-subtitle">Various Projects</p>
+                            <ul class="item-list">
+                                <li>Contributed to several open-source JavaScript libraries</li>
+                                <li>Fixed bugs and implemented new features</li>
+                                <li>Collaborated with developers worldwide</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Page -->
+            <div id="contact-page" class="page-content">
+                <h2 class="page-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info-minimal">
+                        <p>I'm always interested in hearing about new opportunities and projects.</p>
+                        <div class="contact-links-minimal">
+                            <a href="mailto:alex.thompson@email.com">alex.thompson@email.com</a>
+                            <a href="https://github.com/alexthompson" target="_blank">github.com/alexthompson</a>
+                            <a href="https://linkedin.com/in/alexthompson" target="_blank">linkedin.com/in/alexthompson</a>
+                        </div>
+                    </div>
+                    <form class="minimal-form" id="contactForm">
+                        <div class="form-row">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-row">
+                            <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <div class="form-success" id="formSuccess">Message sent successfully!</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
