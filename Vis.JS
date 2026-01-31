@@ -244,12 +244,6 @@ document.addEventListener('DOMContentLoaded', function() {
         tempVizContainer.appendChild(tempChart);
     }
 
-    // Creative Art
-    const artContainer = document.getElementById('creativeArt');
-    if (artContainer) {
-        const artwork = createGeometricArt();
-        artContainer.appendChild(artwork);
-    }
 });
 
 console.log('%c🎨 Visualizations loaded successfully!', 'color: #667eea; font-size: 16px; font-weight: bold;');
