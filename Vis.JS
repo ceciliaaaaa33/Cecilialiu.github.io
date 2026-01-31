@@ -27,7 +27,7 @@ function createTemperatureVisualization() {
     const barWidth = chartWidth / data.length - 10;
 
     // Create SVG
-    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    const svg = document.createElementNS('https://www.w3.org/TR/SVG2/', 'svg');
     svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
     svg.setAttribute('width', '100%');
     svg.setAttribute('height', 'auto');
