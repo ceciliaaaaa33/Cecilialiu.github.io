@@ -245,5 +245,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
-
-console.log('%c🎨 Visualizations loaded successfully!', 'color: #667eea; font-size: 16px; font-weight: bold;');
